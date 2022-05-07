@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name" translatable="false">ResourcesAndLocalization</string>
+    <string name="welcome_message" translatable="false">Welcome to Maharashtra!!</string>
+    <color name="bgColor">#FF0000</color>
+
+    <integer name="code">909</integer>
+
+    <dimen name="normal_width">200dp</dimen>
+    <dimen name="normal_height">100dp</dimen>
+    <dimen name="normal_text_size">30sp</dimen>
+
+    <bool name="is_password">true</bool>
+
+    <integer-array name="city_codes">
+        <item>101</item>
+        <item>202</item>
+        <item>303</item>
+    </integer-array>
+
+    <string-array name="city_names">
+        <item>Pune</item>
+        <item>Mumbai</item>
+        <item>Nagpur</item>
+    </string-array>
+
+    <style name="BitCodeMainStyle">
+        <item name="android:textColor">#000000</item>
+        <item name="android:padding">30dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="BitCodeMainStyle.Big">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="BitCodeMainStyle.Big.Red">
+        <item name="android:textColor">#FF0000</item>
+    </style>
+
+    <style name="MyNewStyle" parent="CardView.Light">
+
+    </style>
+
+
+</resources>
